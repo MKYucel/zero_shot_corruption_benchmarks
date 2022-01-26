@@ -1,5 +1,5 @@
 
-# A Deep Dive into Adversarial Robustness in Zero-Shot Learning
+# How robust are discriminatively trained zero-shot learning models?
 
 This repository contains the PyTorch implementation of our paper [How robust are discriminatively trained zero-shot learning models?](https://www.sciencedirect.com/science/article/abs/pii/S026288562200021X) published at [Elsevier Image and Vision Computing](https://www.sciencedirect.com/journal/image-and-vision-computing).
 
