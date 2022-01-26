@@ -37,10 +37,12 @@ datasets. Please note we operate on raw images, not the features provided with t
 
 ##  :exclamation: Additional Content  :exclamation:
 
-In addition to the paper, we release our supplementary file `supp.pdf`. It includes the following.
+**In addition to the paper, we release our supplementary file `supp.pdf`. It includes the following**.
 
-1. Average errors (ZSL and GZSL) for each dataset per corruption category. These are for the ALE model, and should be used to weight the errors when calculating mean corruption errors. For comparison, this essentially replaces AlexNet error weighting used for ImageNet-C dataset.
-2. Mean corruption errors (ZSL and GZSL)  of the ALE model, for seen/unseen/harmonic and ZSL top-1 accuracies, on each dataset. These are baseline MCE values and should be used to compare the robustness of your methods.
+**1. Average errors (ZSL and GZSL) for each dataset per corruption category.** These are for the ALE model, and should be used to weight the errors when calculating mean corruption errors. For comparison, this essentially replaces AlexNet error weighting used for ImageNet-C dataset.
+
+**2. Mean corruption errors (ZSL and GZSL) of the ALE model, for seen/unseen/harmonic and ZSL top-1 accuracies, on each dataset.** These results include the MCE values for original ALE and ALE with five defense methods used in our paper (i.e. total-variance minimization, spatial smoothing, label smoothing, AugMix and ANT). These values can be used as baseline scores when comparing the robustness of your method.
+
 
 ## Running the code
 After you've downloaded the necessary dataset files, you can run the code by simply
