@@ -1,0 +1,32 @@
+{
+    "dataset": "SUN",
+	"is_corruption": true,
+    "test_model": "augmix",
+	"corruption_method": "spatter",
+	"corruption_severity": 1,
+
+    "CUB_paths":        {
+		                  "att_split": "data/CUB/att_splits.mat",
+			              "root": "path_to_images",
+			              "metaData": "data/CUB/res101.mat"
+			            },
+
+    "SUN_paths":        {
+		                  "att_split": "data/SUN/att_splits.mat",
+			              "root": "path_to_images",
+			              "metaData": "data/SUN/res101.mat"
+			            },
+
+    "AWA2_paths":       {
+        		          "att_split": "data/AWA2/att_splits.mat",
+		            	  "root": "path_to_images",
+			              "metaData": "data/AWA2/res101.mat"
+			            },
+    "num_workers":0,
+    "pin_memory": true,
+    "batch_size": 1,
+    "shuffle_dataset": false
+}
+
+
+
