@@ -1,7 +1,7 @@
 
 # How robust are discriminatively trained zero-shot learning models?
 
-This repository contains the PyTorch implementation of our paper [How robust are discriminatively trained zero-shot learning models?](https://www.sciencedirect.com/science/article/abs/pii/S026288562200021X) published at [Elsevier Image and Vision Computing](https://www.sciencedirect.com/journal/image-and-vision-computing).
+This repository contains the PyTorch implementation of our paper [How robust are discriminatively trained zero-shot learning models?](https://arxiv.org/pdf/2201.10972.pdf) published at [Elsevier Image and Vision Computing](https://www.sciencedirect.com/journal/image-and-vision-computing).
 
 
 
